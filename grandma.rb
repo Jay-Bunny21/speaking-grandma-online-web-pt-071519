@@ -1,4 +1,4 @@
- speak_to_grandma ("I LOVE YOU TOO GRANDMA!")
+ speak_to_grandma = ("I LOVE YOU TOO GRANDMA!")
  
   if speak_to_grandma != speak_to_grandma("I love you grandma!").upcase
    return "I LOVE YOU TOO PUMPKIN!"
