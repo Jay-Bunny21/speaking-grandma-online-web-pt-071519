@@ -11,3 +11,6 @@ elsif speak_to_grandma == "Hi Nana, how are you?"
  else speak_to_grandma == "WHAT?"
    puts "NO, NOT SINCE 1938!"
  end
+ 
+ if phrase != phrase().upcase
+   return phrase
