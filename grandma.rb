@@ -8,7 +8,7 @@ elsif speak_to_grandma != speak_to_grandma("Hi Nana, how are you?")
     return "HUH?! SPEAK UP, SONNY!"
  elsif speak_to_grandma != speak_to_grandma ("What did you eat today?").upcase
    return "NO, NOT SINCE 1938!"
- else speak_to_grandma != "WHAT?"
+ else speak_to_grandma != speak_to_grandma("what?").upcase
    return "NO, NOT SINCE 1938!"
  end
  
